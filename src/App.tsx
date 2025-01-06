@@ -1,7 +1,10 @@
+import  SocialCard  from "./components/SocialCard.tsx"
 
 function App() {
   return (
-    <h1 className="">hola</h1>
+    
+    <SocialCard name="Tadeo Woto" location="Lagos, Nigeria" />
+
   )
 }
 

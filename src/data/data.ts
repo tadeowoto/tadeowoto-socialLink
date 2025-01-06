@@ -23,4 +23,4 @@ const socialLinks = [
     },
 ]
 
-export default socialLinks
+export { socialLinks }
