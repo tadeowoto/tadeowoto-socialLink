@@ -5,14 +5,19 @@ export default {
     "index.html"
   ],
   theme: {
-    extend: {},
-    colors: {
-      mainBg: "#141414",
-      secondaryBg: "#202020",
-      btnBg: "#333333",
-      hText: "#4c2882",
-      mText: "#fff",
-    }
+    extend: {
+      colors: {
+        mainBg: "#141414",
+        secondaryBg: "#202020",
+        btnBg: "#333333",
+        hText: "#b902dd",
+        mText: "#fff",
+      },
+      fontFamily: {
+        manrope: ["Manrope", "sans-serif"],
+      },
+
+    },
   },
   plugins: [],
 }

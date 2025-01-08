@@ -3,7 +3,9 @@ import  SocialCard  from "./components/SocialCard.tsx"
 function App() {
   return (
     
-    <SocialCard name="Tadeo Woto" location="Lagos, Nigeria" />
+    <div className="flex justify-center items-center h-screen bg-mainBg">
+      <SocialCard name="Tadeo Wotoszyn Grillo" location="Argentina" />
+    </div>
 
   )
 }
